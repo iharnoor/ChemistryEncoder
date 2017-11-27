@@ -73,8 +73,13 @@
         android:id="@+id/output"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_above="@+id/decode"
+        android:layout_alignEnd="@+id/key"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginBottom="30dp"
+        android:gravity="center_horizontal|center"
+        android:onClick="onClickOutput"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:layout_above="@+id/encode"
-        android:layout_marginBottom="26dp"
-        android:layout_toEndOf="@+id/encode" />
+        android:textIsSelectable="true" />
+
 </RelativeLayout>
